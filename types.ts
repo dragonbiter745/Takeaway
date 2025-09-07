@@ -8,6 +8,7 @@ export enum Page {
 }
 
 export interface User {
+  id: number;
   name: string;
   emailOrPhone: string;
 }
